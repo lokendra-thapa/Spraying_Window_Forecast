@@ -4,8 +4,6 @@ A Dash-based weather forecast dashboard that shows hourly temperature, wind spee
 
 ![Live Weather Forecast & Spraying Window](screenshot.png)
 
-> Save the screenshot image as `screenshot.png` in the repository root. GitHub will render it directly in the README.
-
 ## What this project does
 
 - Accepts latitude and longitude input from the user
