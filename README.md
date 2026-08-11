@@ -37,43 +37,6 @@ A Dash-based weather forecast dashboard that shows hourly temperature, wind spee
 
 These packages are available in the local `myvenv` environment.
 
-## Setup
-
-1. Create and activate a virtual environment:
-
-```powershell
-python -m venv myvenv
-.\myvenv\Scripts\Activate.ps1
-```
-
-2. Install the required packages:
-
-```powershell
-pip install dash plotly requests numpy
-```
-
-3. Copy `.env.example` to `.env`:
-
-```powershell
-copy .env.example .env
-```
-
-4. Open `.env` and update `API_URL` with your private API endpoint.
-
-> Do not commit `.env` to GitHub.
-
-## Running the app
-
-```powershell
-python main.py
-```
-
-Then open the browser at:
-
-```
-http://127.0.0.1:8050
-```
-
 ## How to use
 
 1. Enter latitude and longitude values
@@ -81,36 +44,6 @@ http://127.0.0.1:8050
 3. Use the day slider at the bottom to switch between forecast days
 4. Review the graph and spraying-condition overlay
 
-## Important notes
-
-- `.env` is ignored by Git via `.gitignore`
-- `.env.example` is safe to commit and should remain as a template
-- `myvenv/` is also ignored and should not be committed
-- If you want to share this repo publicly, never put private API endpoints or credentials into source files
-
-## Optional GitHub README sections to add
-
-- `Features`
-- `Demo`
-- `Installation`
-- `Configuration`
-- `Usage`
-- `Project structure`
-- `Security and secrets`
-
-## Suggested GitHub push checklist
-
-- Commit:
-  - `main.py`
-  - `fetch.py`
-  - `visualization.py`
-  - `.gitignore`
-  - `.env.example`
-  - `README.md`
-- Do not commit:
-  - `.env`
-  - `myvenv/`
-  - `__pycache__/`
 
 ## Notes from the screenshot
 
