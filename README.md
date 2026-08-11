@@ -4,7 +4,7 @@ A Dash-based weather forecast dashboard that shows hourly temperature, wind spee
 
 ![Live Weather Forecast & Spraying Window](screenshot.png)
 
-> Use the attached screenshot as the demo image for this README. Save it as `screenshot.png` in the repo root.
+> Save the screenshot image as `screenshot.png` in the repository root. GitHub will render it directly in the README.
 
 ## What this project does
 
