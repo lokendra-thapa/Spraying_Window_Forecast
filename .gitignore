@@ -1,0 +1,14 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+myvenv/
+
+# Environment files
+.env
+
+# VS Code workspace files
+.vscode/
